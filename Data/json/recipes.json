@@ -1,0 +1,15 @@
+[{
+    "productId": 1,
+    "rawmaterialId": 2,
+    "quantity": 1.5
+},
+{
+    "productId": 3,
+    "rawmaterialId": 2,
+    "quantity": 0.5
+},
+{
+    "productId": 2,
+    "rawmaterialId": 1,
+    "quantity": 2.0
+}]

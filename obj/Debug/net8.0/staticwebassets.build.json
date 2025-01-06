@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oQpzLWTUn45CwANyQmAlCwMDpc62Gmy2TmXhvKOeGMc=",
+  "Source": "dagnys-api",
+  "BasePath": "_content/dagnys-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,17 @@
+[
+    {
+      "itemNumber": "1",
+      "productName": "Bullar",
+      "price": 4.90,
+      "description": "Traditionella svenska kanelbullar",
+      "image": "image1.jpg"
+    },
+    {
+      "itemNumber": "2",
+      "productName": "Bröd",
+      "price": 25.00,
+      "description": "Färskt hembakat bröd",
+      "image": "image2.jpg"
+    }
+  ]
+  

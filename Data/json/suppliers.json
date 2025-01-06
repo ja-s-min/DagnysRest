@@ -1,0 +1,16 @@
+[
+{
+    "supplierID": 1,
+    "supplierName": "Saltkvarn AB",
+    "contactPerson": "Jakob Olofsström",
+    "phoneNumber": "0701234567",
+    "email": "jakob@saltkvarn.se"
+},
+{
+    "supplierID": 2,
+    "supplierName": "Sockerbolaget",
+    "contactPerson":"Erik Larsson",
+    "phoneNumber": "0707654321",
+    "email": "erik@sockerbolaget.se"
+}
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "SupplierId": 1,
+        "RawMaterialId": 1,
+        "PricePerKg": 10.50
+    },
+    {
+        "SupplierId": 2,
+        "RawMaterialId": 2,
+        "PricePerKg": 8.75
+    }
+]
