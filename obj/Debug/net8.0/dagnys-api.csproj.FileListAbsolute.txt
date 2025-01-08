@@ -316,3 +316,9 @@ C:\Users\root\Desktop\dagnys-api-main\obj\Debug\net8.0\refint\dagnys-api.dll
 C:\Users\root\Desktop\dagnys-api-main\obj\Debug\net8.0\dagnys-api.pdb
 C:\Users\root\Desktop\dagnys-api-main\obj\Debug\net8.0\dagnys-api.genruntimeconfig.cache
 C:\Users\root\Desktop\dagnys-api-main\obj\Debug\net8.0\ref\dagnys-api.dll
+C:\Users\root\Desktop\dagnys-api-main\obj\Debug\net8.0\dagnys-api.sourcelink.json
+C:\Users\root\Desktop\dagnys-api-main\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\root\Desktop\dagnys-api-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\root\Desktop\dagnys-api-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\root\Desktop\dagnys-api-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\root\Desktop\dagnys-api-main\obj\Debug\net8.0\dagnys-api.MvcApplicationPartsAssemblyInfo.cs

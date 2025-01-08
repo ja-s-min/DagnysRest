@@ -10,7 +10,15 @@ builder.Services.AddDbContext<DataContext>(options =>{
 
 builder.Services.AddControllers();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+
+if(app.Environment.IsDevelopment()){
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
