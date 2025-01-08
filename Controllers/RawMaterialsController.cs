@@ -29,7 +29,7 @@ public class RawMaterialsController(DataContext context) : ControllerBase
                 .ToListAsync();
 
 
-            return Ok(rawMaterials);
+            return Ok(new { success = true, statusCode = 200, data = rawMaterials });
          
         }
 
@@ -55,10 +55,10 @@ public class RawMaterialsController(DataContext context) : ControllerBase
 
 
             if (rawMaterial == null)
-                return NotFound();
+                return NotFound(new { success = false, statusCode = 404, message = $"Vi kunde ej hitta: {id}" });
 
 
-            return Ok(rawMaterial);
+            return Ok(new { success = true, statusCode = 200, data = rawMaterial });
         }
 
 
@@ -124,7 +124,7 @@ public class RawMaterialsController(DataContext context) : ControllerBase
 
 
        
-        [HttpPatch("update-price")]
+        [HttpPatch("updateprice")]
         public async Task<ActionResult> UpdatePrice(int supplierId, int rawMaterialId, float newPrice)
         {
             var supplierRawMaterial = await _context.SupplierRawMaterials
